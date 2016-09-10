@@ -1,4 +1,4 @@
-# MMJ-Automation
+# MMJA-Automation
 
 This project is created to satisfy the Milestone 0 assignment.
 
