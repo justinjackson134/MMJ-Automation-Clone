@@ -15,8 +15,4 @@ Justin Jackson
 EECS: jjackson
 Email: justin.jackson@wsu.edu
 
-Andrew Heiszler
-EECS: Aheiszl1
-Email: andrew.heiszler@wsu.edu
-
-Matt, Mike, Jackson, Andrew CS322 
+Matt, Mike, Jackson CS322
