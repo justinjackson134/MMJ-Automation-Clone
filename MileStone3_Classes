@@ -1,0 +1,56 @@
+using System;
+
+namespace AutomataTool
+{
+	public class Automaton
+	{
+		private List<char> Alphabet;
+		private List<string> States;
+		private string InitState;
+		private List<string> AcceptingStates;
+		private List<Transition> Trans;
+
+
+	}
+
+	public class Transition
+	{
+		private string Start;
+		private string End;
+		private string Data;
+			
+		public string getStart();
+		public string getEnd();
+		public string getData();
+
+		public string GenerateRegExp();
+		public int TestWord(string w);
+
+	}
+
+	public class FSA : Automaton
+	{
+		List<char> getAlphabet ();
+		
+		List<string> getStates ();
+		string getInitState ();
+		List<string> getAcceptStates ();
+		List<Transition> getTrans ();
+
+		void setAlphabet (List<char> x);
+		void setStates (List<string> x);
+		void setInitState (string x);
+		void setAcceptStates (List<string> x);
+		void setTrans (List<Transition> x);
+	}
+
+	public class UI
+	{
+		public Automaton CurrentAutamata;
+
+		public int Load (string name);
+		public int Save ();
+		public int CreateNew (string name);
+		public void Edit ();
+	}
+}
