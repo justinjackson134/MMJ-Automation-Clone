@@ -19,7 +19,8 @@ Matt, Mike, Jackson CS322
 
 
 
-Running the Program
+Running the Program:
+
 In order to run our graphical automata tool, download the most recent AutomataGuiBuild, or the most recent AutomataGui. AutomataGuiBuild is the pre-built version that does not require Visual Studio to run, AutomataGui is the solution file that can be ran and edited inside of visual studio.
 
 To run the Built version, download and extract the file. Click on the exe file to install the tool. All functions are handled by the menu bar along the top of the form.
