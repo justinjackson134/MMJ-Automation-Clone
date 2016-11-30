@@ -1,7 +1,5 @@
 # MMJA-Automation
 
-This project is created to satisfy the Milestone 0 assignment.
-
 Team Info:
 Matthew Bouland (Contact person)
 EECS: Mbourlan
@@ -15,7 +13,7 @@ Justin Jackson
 EECS: jjackson
 Email: justin.jackson@wsu.edu
 
-Matt, Mike, Jackson CS322
+Matt, Mike, Justin CS322
 
 
 
@@ -23,8 +21,8 @@ Running the Program:
 
 In order to run our graphical automata tool, download the most recent AutomataGuiBuild, or the most recent AutomataGui. AutomataGuiBuild is the pre-built version that does not require Visual Studio to run, AutomataGui is the solution file that can be ran and edited inside of visual studio.
 
-To run the Built version, download and extract the file. Click on the exe file to install the tool. All functions are handled by the menu bar along the top of the form.
+To run the Built version, download and extract the file. Click on the exe file to install the tool. All functions are handled by the menu bar along the top of the form. For an in-depth walkthrough of the operation of this tool, see the "Quickstart Guide" which is shown in the top left portion of the graphical tool.
 
-To run the Visual Studio version, download and extract the solution. Open it in Visual Studio and use the run program function in the editor to run the program.
+To run the Visual Studio version, download and extract the solution. Open it in Visual Studio and use the run program function in the editor to run the program. Default keybind F5.
 
-Please note that the Visual Studio version contains three sample automata files named a, b, and c which can be automatically loaded into the GUI to produce a quick visual of the tools functionality.
+Please note that both versions contains three sample automata files named a, b, and c which can be loaded into the GUI to produce a quick visual of the tools functionality without the need to add additional automata.
