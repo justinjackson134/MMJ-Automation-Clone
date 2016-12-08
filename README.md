@@ -1,4 +1,4 @@
-# MMJA-Automation
+# MMJ-Automation
 
 Team Info:
 Matthew Bouland (Contact person)
