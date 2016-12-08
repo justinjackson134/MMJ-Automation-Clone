@@ -33,6 +33,8 @@ To use this program, either select 'File'->'Load' to load an existing automata, 
 
 Once your automata is fully entered, click 'Update Finite Automata' below, this will load your automata into the system, and inform you of any errors encountered during processing. 
 
+Note: Alphabet symbols may only be 1 character in length
+
 Once your data is entered you may begin entering test words and press the adjacent 'Test' button to check if the entered word is valid.
 
 At any point you may use 'File'->'Save As' to save your progress. You may also use 'File'->'Create New' to delete all data from all forms.
