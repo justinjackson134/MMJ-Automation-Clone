@@ -38,3 +38,17 @@ Note: Alphabet symbols may only be 1 character in length
 Once your data is entered you may begin entering test words and press the adjacent 'Test' button to check if the entered word is valid.
 
 At any point you may use 'File'->'Save As' to save your progress. You may also use 'File'->'Create New' to delete all data from all forms.
+
+Testing Instructions:To run various test cases click "Debugging Test" button on the toolbar. The drop down menu conatins 5 testing options: 
+1) No Path to Accepting:
+   This will handle to case of passing a word into an automaton object that has no way to get to an accepting state.
+2) Circular Path:
+   This test will handle the case of passing a word into an automaton object that contains a loop within the states of the automaton.
+3) Standard Success:
+   This test will handle the case of passing in a word that should be accepted by an automaton object.
+4) Standard Fail:
+   This test will handle the case of passing a word that should not be accepted by an automaton object.
+5) Invalid Alphabet:
+   This test will handle the case of trying to go through a transition whos data field is not included in the alphabet (automaton is not represented right).
+   
+Each test option will open a window that presents you with a message regarding if the test was successful or failed. You can either run these tests individually or all of them by clicking "run all" in the drop down menu. Clicking "run all" will present the user with which tests failed and which were successful.
